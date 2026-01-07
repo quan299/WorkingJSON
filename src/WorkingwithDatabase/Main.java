@@ -34,13 +34,10 @@ public class Main {
                     readFile();
                     break;
                 case 5:
-                    readAPI();
-                    break;
-                case 6:
-                    System.out.println("Thoat chuong trinh!!!");
+                    System.out.println("Exit!!!");
                     break;
                 default:
-                    System.out.println("Nhap sai!!!");
+                    System.out.println("Please type again, wrong input!!!");
                     break;
             }
         } while(choose != 6);
@@ -133,8 +130,7 @@ public class Main {
         System.out.println("2.Show product infomation");
         System.out.println("3.Save file (Json)");
         System.out.println("4.Read file(Json)");
-        System.out.println("5.API(fAKE)");
-        System.out.println("Exit");
+        System.out.println("5. Exit");
 
 
     }
